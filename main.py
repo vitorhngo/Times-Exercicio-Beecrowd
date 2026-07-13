@@ -41,7 +41,6 @@ def exibir_times(times: list[list]):
         print(*v, sep="\n")
         print()
 
-
 def main():
     try:
         entrada: list[str] = input().split(" ")
